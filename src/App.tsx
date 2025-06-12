@@ -60,7 +60,7 @@ function App() {
         onChange={e => setJoke(e.target.value)}
         placeholder="Enter a new joke"
       />
-      <button onClick={addJoke} style={{color:'red'}}>Add Joke</button>
+      <button onClick={addJoke} style={{color:'red',}}>Add Joke</button>
 
       {jokes.map((j) => (
         <JokeComponent
